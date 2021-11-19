@@ -1,0 +1,22 @@
+<xml>
+    <LogColor>true</LogColor>
+    <Log>
+        <FilePath>/data/log/cgi_server</FilePath>
+        <AdapterName>file</AdapterName>
+        <LogLevel>debug</LogLevel>
+        <MaxSize>1048576000</MaxSize>
+        <LineSize>10240</LineSize>
+        <Maxdays>3</Maxdays>
+        <Suffix>log</Suffix>
+    </Log>
+    <report>
+        <LogLevel>info</LogLevel>
+        <FilePath>/data/log/cgi_server</FilePath>
+        <Suffix>log.report</Suffix>
+    </report>
+    <Zipkin>
+        <LogLevel>info</LogLevel>
+        <FilePath>/data/log/zipkin</FilePath>
+        <Suffix>log.zipkin.log</Suffix>
+    </Zipkin>
+</xml>

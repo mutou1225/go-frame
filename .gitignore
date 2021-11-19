@@ -1,0 +1,7 @@
+.exe
+.so
+.idea
+vendor
+application/testapp/etc
+logs
+.bat
