@@ -1,9 +1,9 @@
 package apptask
 
 import (
-	"eva_services_go/frame/appengine/app"
-	"eva_services_go/implements/toolkit"
-	"eva_services_go/logger"
+	"go-frame/frame/appengine/app"
+	"go-frame/implements/toolkit"
+	"go-frame/logger"
 )
 
 func funcTask() {

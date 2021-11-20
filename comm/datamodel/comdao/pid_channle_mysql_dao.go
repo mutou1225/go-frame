@@ -2,10 +2,10 @@ package comdao
 
 import (
 	"errors"
-	"eva_services_go/comm/datamodel/commodel"
-	"eva_services_go/implements/storage"
-	"eva_services_go/implements/toolkit"
-	"eva_services_go/logger"
+	"go-frame/comm/datamodel/commodel"
+	"go-frame/implements/storage"
+	"go-frame/implements/toolkit"
+	"go-frame/logger"
 	"fmt"
 )
 

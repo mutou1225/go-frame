@@ -1,9 +1,9 @@
 package middleware
 
 import (
-	"eva_services_go/frame/errcode"
-	"eva_services_go/implements/opentracing"
 	"github.com/gin-gonic/gin"
+	"go-frame/frame/errcode"
+	"go-frame/implements/opentracing"
 	"strconv"
 )
 

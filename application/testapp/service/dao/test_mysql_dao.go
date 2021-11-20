@@ -2,8 +2,8 @@ package dao
 
 import (
 	"errors"
-	"eva_services_go/implements/storage"
-	"eva_services_go/logger"
+	"go-frame/implements/storage"
+	"go-frame/logger"
 	"fmt"
 )
 

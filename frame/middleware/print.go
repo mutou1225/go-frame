@@ -2,9 +2,9 @@ package middleware
 
 import (
 	"bytes"
-	"eva_services_go/implements/opentracing"
-	"eva_services_go/logger"
 	"github.com/gin-gonic/gin"
+	"go-frame/implements/opentracing"
+	"go-frame/logger"
 	"io/ioutil"
 	"net/http"
 )

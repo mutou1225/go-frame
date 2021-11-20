@@ -1,7 +1,7 @@
 package router
 
 import (
-	"eva_services_go/application/testapp/router/api"
+	"go-frame/application/testapp/router/api"
 	"github.com/gin-gonic/gin"
 )
 

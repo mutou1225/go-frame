@@ -5,9 +5,9 @@ import (
 	"context"
 	"encoding/json"
 	"errors"
-	"eva_services_go/config"
-	es "eva_services_go/implements/elasticsearch"
-	"eva_services_go/logger"
+	"go-frame/config"
+	es "go-frame/implements/elasticsearch"
+	"go-frame/logger"
 	"fmt"
 	"io/ioutil"
 )

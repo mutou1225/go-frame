@@ -1,7 +1,7 @@
 package logicmodel
 
 import (
-	"eva_services_go/frame/protocol"
+	"go-frame/frame/protocol"
 	"strconv"
 )
 

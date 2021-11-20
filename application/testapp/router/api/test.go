@@ -1,12 +1,12 @@
 package api
 
 import (
-	"eva_services_go/application/testapp/apperrors"
-	"eva_services_go/application/testapp/appinterface"
-	"eva_services_go/application/testapp/service/model"
-	"eva_services_go/frame/appengine/app"
-	"eva_services_go/frame/protocol"
-	"eva_services_go/logger"
+	"go-frame/application/testapp/apperrors"
+	"go-frame/application/testapp/appinterface"
+	"go-frame/application/testapp/service/model"
+	"go-frame/frame/appengine/app"
+	"go-frame/frame/protocol"
+	"go-frame/logger"
 	"github.com/gin-gonic/gin"
 	"strconv"
 )

@@ -2,11 +2,11 @@ package appstorage
 
 import (
 	"errors"
-	"eva_services_go/config"
-	es "eva_services_go/implements/elasticsearch"
-	"eva_services_go/implements/rabbitmq"
-	"eva_services_go/implements/storage"
-	"eva_services_go/logger"
+	"go-frame/config"
+	es "go-frame/implements/elasticsearch"
+	"go-frame/implements/rabbitmq"
+	"go-frame/implements/storage"
+	"go-frame/logger"
 )
 
 var (

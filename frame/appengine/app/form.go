@@ -2,10 +2,10 @@ package app
 
 import (
 	"errors"
-	"eva_services_go/frame/protocol"
-	"eva_services_go/implements/toolkit"
-	"eva_services_go/logger"
 	"github.com/go-playground/validator/v10"
+	"go-frame/frame/protocol"
+	"go-frame/implements/toolkit"
+	"go-frame/logger"
 	"strconv"
 
 	"github.com/gin-gonic/gin"

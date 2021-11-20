@@ -1,9 +1,9 @@
 package model
 
 import (
-	"eva_services_go/application/testapp/appinterface"
-	"eva_services_go/implements/storage"
-	"eva_services_go/logger"
+	"go-frame/application/testapp/appinterface"
+	"go-frame/implements/storage"
+	"go-frame/logger"
 	"time"
 )
 

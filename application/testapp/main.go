@@ -1,10 +1,10 @@
 package main
 
 import (
-	"eva_services_go/application/testapp/appstorage"
-	"eva_services_go/application/testapp/apptask"
-	"eva_services_go/application/testapp/router"
-	"eva_services_go/frame/appengine"
+	"go-frame/application/testapp/appstorage"
+	"go-frame/application/testapp/apptask"
+	"go-frame/application/testapp/router"
+	"go-frame/frame/appengine"
 )
 
 const (

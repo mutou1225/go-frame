@@ -1,10 +1,10 @@
 package model
 
 import (
-	"eva_services_go/application/testapp/appinterface"
-	"eva_services_go/application/testapp/service/dao"
-	"eva_services_go/frame/appengine/app"
-	"eva_services_go/implements/toolkit"
+	"go-frame/application/testapp/appinterface"
+	"go-frame/application/testapp/service/dao"
+	"go-frame/frame/appengine/app"
+	"go-frame/implements/toolkit"
 	"strconv"
 )
 

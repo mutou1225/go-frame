@@ -2,9 +2,9 @@ package kafka
 
 import (
 	"errors"
-	"eva_services_go/logger"
 	"fmt"
 	"github.com/Shopify/sarama"
+	"go-frame/logger"
 	"sync"
 )
 

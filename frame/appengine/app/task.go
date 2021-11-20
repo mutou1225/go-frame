@@ -1,8 +1,8 @@
 package app
 
 import (
-	"eva_services_go/logger"
 	"github.com/robfig/cron/v3"
+	"go-frame/logger"
 	"time"
 )
 

@@ -3,10 +3,10 @@ package elasticsearch
 import (
 	"bytes"
 	"errors"
-	"eva_services_go/logger"
 	"github.com/elastic/go-elasticsearch/v6"
 	"github.com/elastic/go-elasticsearch/v6/esapi"
 	jsoniter "github.com/json-iterator/go"
+	"go-frame/logger"
 	"log"
 	"net"
 	"net/http"

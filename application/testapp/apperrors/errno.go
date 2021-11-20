@@ -1,7 +1,7 @@
 package apperrors
 
 import (
-	"eva_services_go/frame/errcode"
+	"go-frame/frame/errcode"
 )
 
 const (

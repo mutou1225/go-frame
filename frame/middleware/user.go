@@ -1,8 +1,8 @@
 package middleware
 
 import (
-	"eva_services_go/frame/errcode"
 	"github.com/gin-gonic/gin"
+	"go-frame/frame/errcode"
 	"net/http"
 )
 

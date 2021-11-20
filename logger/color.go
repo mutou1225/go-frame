@@ -1,7 +1,7 @@
 package logger
 
 import (
-	"eva_services_go/config"
+	"go-frame/config"
 )
 
 // \033[32;1m

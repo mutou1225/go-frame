@@ -2,10 +2,10 @@ package opentracing
 
 import (
 	"errors"
-	"eva_services_go/implements/http"
-	"eva_services_go/implements/toolkit"
 	"fmt"
 	"github.com/patrickmn/go-cache"
+	"go-frame/implements/http"
+	"go-frame/implements/toolkit"
 	"strconv"
 	"strings"
 	"sync"

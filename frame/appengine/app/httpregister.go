@@ -2,13 +2,13 @@ package app
 
 import (
 	"context"
-	"eva_services_go/config"
-	"eva_services_go/frame/middleware"
-	"eva_services_go/frame/servermux"
-	"eva_services_go/logger"
 	"fmt"
 	"github.com/gin-contrib/pprof"
 	"github.com/gin-gonic/gin"
+	"go-frame/config"
+	"go-frame/frame/middleware"
+	"go-frame/frame/servermux"
+	"go-frame/logger"
 	"log"
 	"net/http"
 	_ "net/http/pprof"

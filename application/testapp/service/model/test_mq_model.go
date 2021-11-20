@@ -2,9 +2,9 @@ package model
 
 import (
 	"encoding/json"
-	"eva_services_go/application/testapp/appstorage"
-	"eva_services_go/implements/rabbitmq"
-	"eva_services_go/logger"
+	"go-frame/application/testapp/appstorage"
+	"go-frame/implements/rabbitmq"
+	"go-frame/logger"
 	"sync"
 )
 

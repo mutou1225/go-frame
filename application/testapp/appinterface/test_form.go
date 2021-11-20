@@ -1,7 +1,7 @@
 package appinterface
 
 import (
-	"eva_services_go/frame/protocol"
+	"go-frame/frame/protocol"
 )
 
 // 获取调价方案列表请求参数

@@ -1,10 +1,10 @@
 package logger
 
 import (
-	"eva_services_go/config"
-	"eva_services_go/implements/http"
 	"fmt"
 	"github.com/sirupsen/logrus"
+	"go-frame/config"
+	"go-frame/implements/http"
 	"log"
 	"reflect"
 	"time"

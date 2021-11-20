@@ -2,7 +2,7 @@ package trace
 
 import (
 	"bytes"
-	"eva_services_go/logger"
+	"go-frame/logger"
 	"runtime"
 )
 

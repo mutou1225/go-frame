@@ -2,9 +2,9 @@ package storage
 
 import (
 	"errors"
-	"eva_services_go/implements/opentracing"
-	"eva_services_go/logger"
 	"fmt"
+	"go-frame/implements/opentracing"
+	"go-frame/logger"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 	glogger "gorm.io/gorm/logger"

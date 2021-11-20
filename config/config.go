@@ -2,8 +2,8 @@ package config
 
 import (
 	"encoding/xml"
-	"eva_services_go/implements/watcher"
 	"fmt"
+	"go-frame/implements/watcher"
 	"io/ioutil"
 	"log"
 	"os"

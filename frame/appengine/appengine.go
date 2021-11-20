@@ -1,12 +1,12 @@
 package appengine
 
 import (
-	cfg "eva_services_go/config"
-	"eva_services_go/frame/appengine/app"
-	"eva_services_go/frame/errcode"
-	"eva_services_go/implements/opentracing"
-	"eva_services_go/logger"
 	"github.com/gin-gonic/gin"
+	cfg "go-frame/config"
+	"go-frame/frame/appengine/app"
+	"go-frame/frame/errcode"
+	"go-frame/implements/opentracing"
+	"go-frame/logger"
 	"log"
 	"os"
 	"os/signal"

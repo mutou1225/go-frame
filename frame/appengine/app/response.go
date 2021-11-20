@@ -1,14 +1,14 @@
 package app
 
 import (
-	"eva_services_go/frame/errcode"
-	"eva_services_go/frame/protocol"
-	"eva_services_go/implements/opentracing"
-	"eva_services_go/implements/toolkit"
-	"eva_services_go/logger"
 	"fmt"
 	"github.com/gin-gonic/gin"
 	jsoniter "github.com/json-iterator/go"
+	"go-frame/frame/errcode"
+	"go-frame/frame/protocol"
+	"go-frame/implements/opentracing"
+	"go-frame/implements/toolkit"
+	"go-frame/logger"
 	"net/http"
 	"strconv"
 	"time"
