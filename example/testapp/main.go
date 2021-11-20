@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/mutou1225/go-frame/application/testapp/appstorage"
-	"github.com/mutou1225/go-frame/application/testapp/apptask"
-	"github.com/mutou1225/go-frame/application/testapp/router"
+	"github.com/mutou1225/go-frame/example/testapp/appstorage"
+	"github.com/mutou1225/go-frame/example/testapp/apptask"
+	"github.com/mutou1225/go-frame/example/testapp/router"
 	"github.com/mutou1225/go-frame/frame/appengine"
 )
 

@@ -2,9 +2,9 @@ package api
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/mutou1225/go-frame/application/testapp/apperrors"
-	"github.com/mutou1225/go-frame/application/testapp/appinterface"
-	"github.com/mutou1225/go-frame/application/testapp/service/model"
+	"github.com/mutou1225/go-frame/example/testapp/apperrors"
+	"github.com/mutou1225/go-frame/example/testapp/appinterface"
+	"github.com/mutou1225/go-frame/example/testapp/service/model"
 	"github.com/mutou1225/go-frame/frame/appengine/app"
 	"github.com/mutou1225/go-frame/frame/protocol"
 	"github.com/mutou1225/go-frame/logger"

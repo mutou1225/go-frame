@@ -2,7 +2,7 @@ package model
 
 import (
 	"encoding/json"
-	"github.com/mutou1225/go-frame/application/testapp/appstorage"
+	"github.com/mutou1225/go-frame/example/testapp/appstorage"
 	"github.com/mutou1225/go-frame/implements/rabbitmq"
 	"github.com/mutou1225/go-frame/logger"
 	"sync"

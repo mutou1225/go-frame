@@ -1,8 +1,8 @@
 package model
 
 import (
-	"github.com/mutou1225/go-frame/application/testapp/appinterface"
-	"github.com/mutou1225/go-frame/application/testapp/service/dao"
+	"github.com/mutou1225/go-frame/example/testapp/appinterface"
+	"github.com/mutou1225/go-frame/example/testapp/service/dao"
 	"github.com/mutou1225/go-frame/frame/appengine/app"
 	"github.com/mutou1225/go-frame/implements/toolkit"
 	"strconv"

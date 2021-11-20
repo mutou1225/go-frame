@@ -2,6 +2,6 @@
 .so
 .idea
 vendor
-application/testapp/etc
+example/testapp/etc
 logs
 .bat
