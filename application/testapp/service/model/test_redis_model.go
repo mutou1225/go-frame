@@ -1,9 +1,9 @@
 package model
 
 import (
-	"go-frame/application/testapp/appinterface"
-	"go-frame/implements/storage"
-	"go-frame/logger"
+	"github.com/mutou1225/go-frame/application/testapp/appinterface"
+	"github.com/mutou1225/go-frame/implements/storage"
+	"github.com/mutou1225/go-frame/logger"
 	"time"
 )
 

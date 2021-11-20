@@ -2,8 +2,8 @@ package dao
 
 import (
 	"errors"
-	"go-frame/implements/storage"
-	"go-frame/logger"
+	"github.com/mutou1225/go-frame/implements/storage"
+	"github.com/mutou1225/go-frame/logger"
 	"fmt"
 )
 

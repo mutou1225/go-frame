@@ -1,7 +1,7 @@
 package appinterface
 
 import (
-	"go-frame/frame/protocol"
+	"github.com/mutou1225/go-frame/frame/protocol"
 )
 
 // 获取调价方案列表请求参数

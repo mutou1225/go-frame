@@ -2,8 +2,8 @@ package middleware
 
 import (
 	"github.com/gin-gonic/gin"
-	"go-frame/frame/errcode"
-	"go-frame/implements/opentracing"
+	"github.com/mutou1225/go-frame/frame/errcode"
+	"github.com/mutou1225/go-frame/implements/opentracing"
 	"strconv"
 )
 

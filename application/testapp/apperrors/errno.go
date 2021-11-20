@@ -1,7 +1,7 @@
 package apperrors
 
 import (
-	"go-frame/frame/errcode"
+	"github.com/mutou1225/go-frame/frame/errcode"
 )
 
 const (

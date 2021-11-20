@@ -2,9 +2,9 @@ package logger
 
 import (
 	"fmt"
+	"github.com/mutou1225/go-frame/config"
+	"github.com/mutou1225/go-frame/implements/http"
 	"github.com/sirupsen/logrus"
-	"go-frame/config"
-	"go-frame/implements/http"
 	"log"
 	"reflect"
 	"time"

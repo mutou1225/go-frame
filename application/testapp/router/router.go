@@ -1,8 +1,8 @@
 package router
 
 import (
-	"go-frame/application/testapp/router/api"
 	"github.com/gin-gonic/gin"
+	"github.com/mutou1225/go-frame/application/testapp/router/api"
 )
 
 // 初始化路由

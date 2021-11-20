@@ -6,7 +6,7 @@ import (
 	"github.com/elastic/go-elasticsearch/v6"
 	"github.com/elastic/go-elasticsearch/v6/esapi"
 	jsoniter "github.com/json-iterator/go"
-	"go-frame/logger"
+	"github.com/mutou1225/go-frame/logger"
 	"log"
 	"net"
 	"net/http"

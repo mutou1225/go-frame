@@ -3,8 +3,8 @@ package middleware
 import (
 	"bytes"
 	"github.com/gin-gonic/gin"
-	"go-frame/implements/opentracing"
-	"go-frame/logger"
+	"github.com/mutou1225/go-frame/implements/opentracing"
+	"github.com/mutou1225/go-frame/logger"
 	"io/ioutil"
 	"net/http"
 )

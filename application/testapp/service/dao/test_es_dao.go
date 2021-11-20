@@ -5,9 +5,9 @@ import (
 	"context"
 	"encoding/json"
 	"errors"
-	"go-frame/config"
-	es "go-frame/implements/elasticsearch"
-	"go-frame/logger"
+	"github.com/mutou1225/go-frame/config"
+	es "github.com/mutou1225/go-frame/implements/elasticsearch"
+	"github.com/mutou1225/go-frame/logger"
 	"fmt"
 	"io/ioutil"
 )

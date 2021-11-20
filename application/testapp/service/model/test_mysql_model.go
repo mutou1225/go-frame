@@ -1,10 +1,10 @@
 package model
 
 import (
-	"go-frame/application/testapp/appinterface"
-	"go-frame/application/testapp/service/dao"
-	"go-frame/frame/appengine/app"
-	"go-frame/implements/toolkit"
+	"github.com/mutou1225/go-frame/application/testapp/appinterface"
+	"github.com/mutou1225/go-frame/application/testapp/service/dao"
+	"github.com/mutou1225/go-frame/frame/appengine/app"
+	"github.com/mutou1225/go-frame/implements/toolkit"
 	"strconv"
 )
 

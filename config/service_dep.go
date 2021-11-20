@@ -3,7 +3,7 @@ package config
 import (
 	"encoding/xml"
 	"fmt"
-	"go-frame/implements/watcher"
+	"github.com/mutou1225/go-frame/implements/watcher"
 	"io/ioutil"
 	"log"
 	"os"

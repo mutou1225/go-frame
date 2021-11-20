@@ -1,13 +1,13 @@
 package api
 
 import (
-	"go-frame/application/testapp/apperrors"
-	"go-frame/application/testapp/appinterface"
-	"go-frame/application/testapp/service/model"
-	"go-frame/frame/appengine/app"
-	"go-frame/frame/protocol"
-	"go-frame/logger"
 	"github.com/gin-gonic/gin"
+	"github.com/mutou1225/go-frame/application/testapp/apperrors"
+	"github.com/mutou1225/go-frame/application/testapp/appinterface"
+	"github.com/mutou1225/go-frame/application/testapp/service/model"
+	"github.com/mutou1225/go-frame/frame/appengine/app"
+	"github.com/mutou1225/go-frame/frame/protocol"
+	"github.com/mutou1225/go-frame/logger"
 	"strconv"
 )
 

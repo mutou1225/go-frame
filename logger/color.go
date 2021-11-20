@@ -1,7 +1,7 @@
 package logger
 
 import (
-	"go-frame/config"
+	"github.com/mutou1225/go-frame/config"
 )
 
 // \033[32;1m

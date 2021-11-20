@@ -1,10 +1,10 @@
 package main
 
 import (
-	"go-frame/application/testapp/appstorage"
-	"go-frame/application/testapp/apptask"
-	"go-frame/application/testapp/router"
-	"go-frame/frame/appengine"
+	"github.com/mutou1225/go-frame/application/testapp/appstorage"
+	"github.com/mutou1225/go-frame/application/testapp/apptask"
+	"github.com/mutou1225/go-frame/application/testapp/router"
+	"github.com/mutou1225/go-frame/frame/appengine"
 )
 
 const (

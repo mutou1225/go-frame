@@ -2,11 +2,11 @@ package appstorage
 
 import (
 	"errors"
-	"go-frame/config"
-	es "go-frame/implements/elasticsearch"
-	"go-frame/implements/rabbitmq"
-	"go-frame/implements/storage"
-	"go-frame/logger"
+	"github.com/mutou1225/go-frame/config"
+	es "github.com/mutou1225/go-frame/implements/elasticsearch"
+	"github.com/mutou1225/go-frame/implements/rabbitmq"
+	"github.com/mutou1225/go-frame/implements/storage"
+	"github.com/mutou1225/go-frame/logger"
 )
 
 var (

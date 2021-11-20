@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 	"github.com/Shopify/sarama"
-	"go-frame/logger"
+	"github.com/mutou1225/go-frame/logger"
 	"sync"
 )
 

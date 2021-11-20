@@ -2,7 +2,7 @@ package opentracing
 
 import (
 	"fmt"
-	"go-frame/implements/toolkit"
+	"github.com/mutou1225/go-frame/implements/toolkit"
 	"time"
 )
 

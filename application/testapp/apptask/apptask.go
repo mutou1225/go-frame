@@ -1,9 +1,9 @@
 package apptask
 
 import (
-	"go-frame/frame/appengine/app"
-	"go-frame/implements/toolkit"
-	"go-frame/logger"
+	"github.com/mutou1225/go-frame/frame/appengine/app"
+	"github.com/mutou1225/go-frame/implements/toolkit"
+	"github.com/mutou1225/go-frame/logger"
 )
 
 func funcTask() {

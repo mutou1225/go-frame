@@ -2,11 +2,11 @@ package comdao
 
 import (
 	"errors"
-	"go-frame/comm/datamodel/commodel"
-	"go-frame/implements/storage"
-	"go-frame/implements/toolkit"
-	"go-frame/logger"
 	"fmt"
+	"github.com/mutou1225/go-frame/comm/datamodel/commodel"
+	"github.com/mutou1225/go-frame/implements/storage"
+	"github.com/mutou1225/go-frame/implements/toolkit"
+	"github.com/mutou1225/go-frame/logger"
 )
 
 // 查询渠道信息

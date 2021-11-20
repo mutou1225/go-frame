@@ -3,8 +3,8 @@ package storage
 import (
 	"errors"
 	"fmt"
-	"go-frame/implements/opentracing"
-	"go-frame/logger"
+	"github.com/mutou1225/go-frame/implements/opentracing"
+	"github.com/mutou1225/go-frame/logger"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 	glogger "gorm.io/gorm/logger"

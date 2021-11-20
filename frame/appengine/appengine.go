@@ -2,11 +2,11 @@ package appengine
 
 import (
 	"github.com/gin-gonic/gin"
-	cfg "go-frame/config"
-	"go-frame/frame/appengine/app"
-	"go-frame/frame/errcode"
-	"go-frame/implements/opentracing"
-	"go-frame/logger"
+	cfg "github.com/mutou1225/go-frame/config"
+	"github.com/mutou1225/go-frame/frame/appengine/app"
+	"github.com/mutou1225/go-frame/frame/errcode"
+	"github.com/mutou1225/go-frame/implements/opentracing"
+	"github.com/mutou1225/go-frame/logger"
 	"log"
 	"os"
 	"os/signal"

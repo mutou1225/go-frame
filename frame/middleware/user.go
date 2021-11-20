@@ -2,7 +2,7 @@ package middleware
 
 import (
 	"github.com/gin-gonic/gin"
-	"go-frame/frame/errcode"
+	"github.com/mutou1225/go-frame/frame/errcode"
 	"net/http"
 )
 

@@ -2,7 +2,7 @@ package trace
 
 import (
 	"bytes"
-	"go-frame/logger"
+	"github.com/mutou1225/go-frame/logger"
 	"runtime"
 )
 

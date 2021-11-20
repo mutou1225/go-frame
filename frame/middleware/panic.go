@@ -3,9 +3,9 @@ package middleware
 import (
 	"github.com/gin-gonic/gin"
 	jsoniter "github.com/json-iterator/go"
-	"go-frame/frame/errcode"
-	"go-frame/frame/protocol"
-	"go-frame/logger"
+	"github.com/mutou1225/go-frame/frame/errcode"
+	"github.com/mutou1225/go-frame/frame/protocol"
+	"github.com/mutou1225/go-frame/logger"
 	"io/ioutil"
 	"net/http"
 	"strconv"
