@@ -25,7 +25,7 @@ type ProductSearch struct {
 	PageSize  int
 }
 
-func GetInfoFromMysql(search *ProductSearch) ([]TProduct, int, error) {
+func GetInfoFromMysql(search *ProductSearch) ([]TProduct, int64, error) {
 	mysqlDB := storage.GetDBHandle(storage.PriceMysql)
 	if mysqlDB == nil {
 		logger.PrintError("get mysql handle failed")
@@ -48,7 +48,7 @@ func GetInfoFromMysql(search *ProductSearch) ([]TProduct, int, error) {
 		db = db.Where("Fproduct_name LIKE ?", fmt.Sprintf("%%%s%%", search.Keyword))
 	}
 
-	var count int
+	var count int64
 	err := storage.GetDBError(db.Count(&count))
 	if err != nil {
 		return nil, 0, err
@@ -72,5 +72,5 @@ func SetInfoFromMysql(info *TProduct) error {
 		return errors.New("get mysql handle failed")
 	}
 
-	return storage.GetDBError(mysqlDB.Table(TTProduct).Update(info))
+	return storage.GetDBError(mysqlDB.Table(TTProduct).Updates(info))
 }

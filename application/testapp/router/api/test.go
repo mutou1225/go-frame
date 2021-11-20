@@ -94,7 +94,7 @@ func TestMysqlGetApi(c *gin.Context) {
 	}
 
 	retData := appinterface.RespTest{}
-	retData.Total.Total = strconv.Itoa(total)
+	retData.Total.Total = strconv.FormatInt(total, 10)
 	retData.Total.PageIndex = formParam.PageIndex
 	retData.Total.PageSize = formParam.PageSize
 	retData.TestList = result

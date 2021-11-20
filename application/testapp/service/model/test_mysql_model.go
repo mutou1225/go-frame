@@ -8,7 +8,7 @@ import (
 	"strconv"
 )
 
-func TestMysqlGetModel(params *appinterface.Test) ([]appinterface.TestInfo, int, error) {
+func TestMysqlGetModel(params *appinterface.Test) ([]appinterface.TestInfo, int64, error) {
 
 	search := &dao.ProductSearch{
 		Id        : toolkit.StrAtoi(params.Id),
