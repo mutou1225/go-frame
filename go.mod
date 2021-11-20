@@ -1,4 +1,4 @@
-module go-frame
+module github.com/mutou1225/go-frame
 
 go 1.15
 
